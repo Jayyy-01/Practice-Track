@@ -1,4 +1,5 @@
 # Day 02
 
-One practice problem:
+Two practice problems:
 - `calculator.py` – simple calculator that performs +, -, *, /, and // based on user input
+- `celsius.py` – converts Celsius to Fahrenheit
