@@ -13,3 +13,15 @@ def check_prime(num):
 
 print(check_prime(2)) 
 print(check_prime(9))   
+print(check_prime(13))
+
+#better
+# def check_prime(num):
+#     for i in range(2,int(num**0.5)+1):
+#         if i % num == 0:
+#             return False
+#             break
+#     return True
+
+# print(check_prime(2)) 
+# print(check_prime(9))   
