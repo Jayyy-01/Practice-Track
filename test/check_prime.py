@@ -1,3 +1,5 @@
+#write a function to check prime number, return True if its a prime number and return False if not
+#eg: 2 is prime, 9 is not prime
 def check_prime(num):
     if num < 2:
         return False
@@ -9,5 +11,5 @@ def check_prime(num):
         return True
     return False
 
-print(check_prime(2))
-print(check_prime(9)) 
+print(check_prime(2)) 
+print(check_prime(9))   
