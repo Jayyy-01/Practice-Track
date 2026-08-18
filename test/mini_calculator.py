@@ -10,7 +10,7 @@ def mini_calculator(num1,num2,operation):
     elif operation == '//':
         return num1 // num2
     else:
-        pass
+        return "Invalid operation"
 
 
 print(mini_calculator(10,20,'+')) 
